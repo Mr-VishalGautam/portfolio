@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/vishalgautam/static/css/main.0af852e6.chunk.css",
+    "main.js": "/vishalgautam/static/js/main.5d57d13e.chunk.js",
+    "main.js.map": "/vishalgautam/static/js/main.5d57d13e.chunk.js.map",
+    "runtime-main.js": "/vishalgautam/static/js/runtime-main.8de8943a.js",
+    "runtime-main.js.map": "/vishalgautam/static/js/runtime-main.8de8943a.js.map",
+    "static/js/2.86b23938.chunk.js": "/vishalgautam/static/js/2.86b23938.chunk.js",
+    "static/js/2.86b23938.chunk.js.map": "/vishalgautam/static/js/2.86b23938.chunk.js.map",
+    "static/js/3.aad6da36.chunk.js": "/vishalgautam/static/js/3.aad6da36.chunk.js",
+    "static/js/3.aad6da36.chunk.js.map": "/vishalgautam/static/js/3.aad6da36.chunk.js.map",
+    "index.html": "/vishalgautam/index.html",
+    "static/css/main.0af852e6.chunk.css.map": "/vishalgautam/static/css/main.0af852e6.chunk.css.map",
+    "static/js/2.86b23938.chunk.js.LICENSE.txt": "/vishalgautam/static/js/2.86b23938.chunk.js.LICENSE.txt",
+    "static/media/Component.css": "/vishalgautam/static/media/gagron-durg.76ee04a9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8de8943a.js",
+    "static/js/2.86b23938.chunk.js",
+    "static/css/main.0af852e6.chunk.css",
+    "static/js/main.5d57d13e.chunk.js"
+  ]
+}
