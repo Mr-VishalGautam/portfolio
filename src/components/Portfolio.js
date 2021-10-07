@@ -2,6 +2,8 @@ import React from "react";
 import "./Component.css";
 import AsideMenu from "./AsideMenu";
 
+import {  Link } from "react-router-dom";
+
 export default function Portfolio() {
     return (
         <div>
@@ -33,7 +35,7 @@ export default function Portfolio() {
                                                 Looking for a front-end Developer willing to join your
                                                 team?
                                                 <br />
-                                                <a href="/contact/">Contact me</a>. I will answer you in
+                                                <Link to="/contact">Contact me</Link>. I will answer you in
                                                 ~24 hours.
                                             </div>
                                         </div>
@@ -51,7 +53,7 @@ export default function Portfolio() {
                                                 I am working as a React Developer in medium-size tech
                                                 company. This gave me a lot of experience and hindsight
                                                 on how a proper team collaborate, project management
-                                                process should look like. See <a href="/cv/">my CV</a>{" "}
+                                                process should look like. See <Link to="/cv">my CV</Link>{" "}
                                                 for more details.
                                             </div>
                                         </div>
@@ -63,7 +65,7 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/adminpanel/" className="project-link">
+                                            <Link to="/my-portfolio/adminpanel/" className="project-link">
                                                 <div className="project-title">
                                                     Admin Panel & Website(Under NDA){" "}
                                                 </div>
@@ -71,7 +73,7 @@ export default function Portfolio() {
                                                     Working on an High Functional Video uploading and
                                                     rating application
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     <strong>
@@ -90,67 +92,67 @@ export default function Portfolio() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/adminpanel/"
+                                            <Link
+                                                to="/my-portfolio/adminpanel/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://reactjs.org/"
+                                                        <Link
+                                                            to="https://reactjs.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             React
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://redux.js.org/"
+                                                        <Link
+                                                            to="https://redux.js.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Redux
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="http://elasticsearch.org/"
+                                                        <Link
+                                                            to="http://elasticsearch.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             ElasticSearch
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://firebase.google.com/"
+                                                        <Link
+                                                            to="https://firebase.google.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Firebase
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://www.ansible.com/"
+                                                        <Link
+                                                            to="https://www.ansible.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             sockets
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/adminpanel/">
-                                                <img src="/adminpanalss.png" alt="Admin Panel" />
-                                            </a>
+                                            <Link to="/my-portfolio/adminpanel/">
+                                                <img src="/portfolio/adminpanalss.png" alt="Admin Panel" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -162,12 +164,12 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/jjtu/" className="project-link">
+                                            <Link to="/my-portfolio/jjtu/" className="project-link">
                                                 <div className="project-title">JJTU </div>
                                                 <div className="project-subtitle">
                                                     A Prestigeous University Based In india
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     <strong>
@@ -183,58 +185,58 @@ export default function Portfolio() {
                                                     <li>Responsive web application (React & Redux)</li>
                                                 </ol>
                                             </div>
-                                            <a
-                                                href="/portfolio/jjtu/"
+                                            <Link
+                                                to="/my-portfolio/jjtu/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://reactjs.org/"
+                                                        <Link
+                                                            to="https://reactjs.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             React
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://redux.js.org/"
+                                                        <Link
+                                                            to="https://redux.js.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Redux
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://react-bootstrap.github.io/"
+                                                        <Link
+                                                            to="https://react-bootstrap.github.io/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://sass-lang.com/"
+                                                        <Link
+                                                            to="https://sass-lang.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Sass
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/jjtu/">
-                                                <img src="/JJTUss.png" alt="JJTU WEBSITE" />
-                                            </a>
+                                            <Link to="/my-portfolio/jjtu/">
+                                                <img src="/portfolio/JJTUss.png" alt="JJTU WEBSITE" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -244,13 +246,13 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/jjtuadmin/" className="project-link">
+                                            <Link to="/my-portfolio/jjtuadmin/" className="project-link">
                                                 <div className="project-title">JJTU Admin Panel</div>
                                                 <div className="project-subtitle">
                                                     A highly fuctional and responsive admin panel to
                                                     manage Universites data
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>The portal is used to manage data like:</p>
                                                 <ul>
@@ -270,58 +272,58 @@ export default function Portfolio() {
                                                     <li>Done in React/Redux and TypeScript</li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/jjtuadmin/"
+                                            <Link
+                                                to="/my-portfolio/jjtuadmin/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://reactjs.org/"
+                                                        <Link
+                                                            to="https://reactjs.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             React
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://redux.js.org/"
+                                                        <Link
+                                                            to="https://redux.js.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Redux
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://www.typescriptlang.org/"
+                                                        <Link
+                                                            to="https://www.typescriptlang.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             TypeScript
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://react-bootstrap.github.io/"
+                                                        <Link
+                                                            to="https://react-bootstrap.github.io/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/jjtu-admin/">
-                                                <img src="/jjtuadminss.png" alt="JJTU Admin " />
-                                            </a>
+                                            <Link to="/my-portfolio/jjtu-admin/">
+                                                <img src="/portfolio/jjtuadminss.png" alt="JJTU Admin " />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -333,13 +335,13 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/radhaStore/" className="project-link">
+                                            <Link to="/my-portfolio/radhaStore/" className="project-link">
                                                 <div className="project-title">Radha Store</div>
                                                 <div className="project-subtitle">
                                                     An E-commerce website for Religious books,Traditional
                                                     clothes and things
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     The application allows to buy ISCKON's book's,
@@ -353,49 +355,49 @@ export default function Portfolio() {
                                                     <li>Used By hundreds of devotees worldwide daily</li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/radhaStore/"
+                                            <Link
+                                                to="/my-portfolio/radhaStore/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://reactjs.org/"
+                                                        <Link
+                                                            to="https://reactjs.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             React
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://react-bootstrap.github.io/"
+                                                        <Link
+                                                            to="https://react-bootstrap.github.io/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
+                                                        <Link
+                                                            to="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Css3
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/radhaStore/">
-                                                <img src="/radhastoress.png" alt="Radha Store" />
-                                            </a>
+                                            <Link to="/my-portfolio/radhaStore/">
+                                                <img src="/portfolio/radhastoress.png" alt="Radha Store" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -403,7 +405,7 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/namangtl/" className="project-link">
+                                            <Link to="/my-portfolio/namangtl/" className="project-link">
                                                 <div className="project-title">
                                                     Naman Gems Testing lab
                                                 </div>
@@ -411,7 +413,7 @@ export default function Portfolio() {
                                                     A Brand Portfolio website for of the India's top Gems
                                                     Testing lab Based in Jaipur,"Rajasthan"
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <ul>
                                                     <li>Responsive and highly efficient.</li>
@@ -421,49 +423,49 @@ export default function Portfolio() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/namangtl/"
+                                            <Link
+                                                to="/my-portfolio/namangtl/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://reactjs.org/"
+                                                        <Link
+                                                            to="https://reactjs.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             React
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://react-bootstrap.github.io/"
+                                                        <Link
+                                                            to="https://react-bootstrap.github.io/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
+                                                        <Link
+                                                            to="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Css3
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/namangtl/">
-                                                <img src="/ngtl.png" alt="Gems Testing lab" />
-                                            </a>
+                                            <Link to="/my-portfolio/namangtl/">
+                                                <img src="/portfolio/ngtl.png" alt="Gems Testing lab" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -471,7 +473,7 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/igl/" className="project-link">
+                                            <Link to="/my-portfolio/igl/" className="project-link">
                                                 <div className="project-title">
                                                     Indian Gemological Lab
                                                 </div>
@@ -479,7 +481,7 @@ export default function Portfolio() {
                                                     A Brand Portfolio website for of the India's top Gems
                                                     Testing lab Based in Jaipur,"Rajasthan"
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     An highly resoponsive an good lookin portfolio of one
@@ -493,47 +495,47 @@ export default function Portfolio() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/igl/"
+                                            <Link
+                                                to="/my-portfolio/igl/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://angular.io/"
+                                                        <Link
+                                                            to="https://angular.io/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Angular
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://getbootstrap.com/"
+                                                        <Link
+                                                            to="https://getbootstrap.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
 
                                                     <li>
-                                                        <a href="# ">HTML5</a>
+                                                        <Link to="# ">HTML5</Link>
                                                     </li>
                                                     <li>
-                                                        <a href="# ">CSS3</a>
+                                                        <Link to="# ">CSS3</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/igl/">
-                                                <img src="/igl.png" alt="IGL" />
-                                            </a>
+                                            <Link to="/my-portfolio/igl/">
+                                                <img src="/portfolio/igl.png" alt="IGL" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -541,14 +543,14 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a href="/portfolio/ayurvedah/" className="project-link">
+                                            <Link to="/my-portfolio/ayurvedah/" className="project-link">
                                                 <div className="project-title">Ayurvedah</div>
                                                 <div className="project-subtitle">
                                                     A web portal to communicate with india's best
                                                     ayurvedic doctor's for online diagnosis and
                                                     prescription
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>Ayurvedah lets you connect with :</p>
                                                 <ul>
@@ -564,52 +566,52 @@ export default function Portfolio() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/ayurvedah/"
+                                            <Link
+                                                to="/my-portfolio/ayurvedah/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a href="# ">HTML5</a>
+                                                        <Link to="# ">HTML5</Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
+                                                        <Link
+                                                            to="https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Css3
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://getbootstrap.com/"
+                                                        <Link
+                                                            to="https://getbootstrap.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="http://vanilla-js.com/"
+                                                        <Link
+                                                            to="http://vanilla-js.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Vanilla Js
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/ayurvedah/">
-                                                <img src="/ayurvedah.png" alt="Ayurvedah " />
-                                            </a>
+                                            <Link to="/my-portfolio/ayurvedah/">
+                                                <img src="/portfolio/ayurvedah.png" alt="Ayurvedah " />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -617,13 +619,13 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a
-                                                href="/portfolio/mehta-stones/"
+                                            <Link
+                                                to="/my-portfolio/mehta-stones/"
                                                 className="project-link"
                                             >
                                                 <div className="project-title">Mehta Stones </div>
                                                 <div className="project-subtitle" />
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     A Brand portfolio for a local stone marbal trader and
@@ -634,43 +636,43 @@ export default function Portfolio() {
                                                     <li>custom subpages, gallery, contact form;</li>
                                                 </ul>
                                             </div>
-                                            <a
-                                                href="/portfolio/mehta-stones/"
+                                            <Link
+                                                to="/my-portfolio/mehta-stones/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="http://vanilla-js.com/"
+                                                        <Link
+                                                            to="http://vanilla-js.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Vanilla Js
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="https://getbootstrap.com/"
+                                                        <Link
+                                                            to="https://getbootstrap.com/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Bootstrap
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a href="# ">HTML5</a>
+                                                        <Link to="# ">HTML5</Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/mehta-stones/">
-                                                <img src="/mehtastones.png" alt="Mehta Stones" />
-                                            </a>
+                                            <Link to="/my-portfolio/mehta-stones/">
+                                                <img src="/portfolio/mehtastones.png" alt="Mehta Stones" />
+                                            </Link>
                                         </div>
                                     </div>
                                 </li>
@@ -682,15 +684,15 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <a
-                                                href="/portfolio/slowniki-pro/"
+                                            <Link
+                                                to="/portfolio/slowniki-pro/"
                                                 className="project-link"
                                             >
                                                 <div className="project-title">Slowniki-Pro</div>
                                                 <div className="project-subtitle">
                                                     Commercial dictionaries online
                                                 </div>
-                                            </a>
+                                            </Link>
                                             <div className="project-description">
                                                 <p>
                                                     <em>
@@ -739,43 +741,43 @@ export default function Portfolio() {
                                                     framework.
                                                 </p>
                                             </div>
-                                            <a
-                                                href="/portfolio/slowniki-pro/"
+                                            <Link
+                                                to="/portfolio/slowniki-pro/"
                                                 className="project-readmore button button-red"
                                             >
                                                 More details
-                                            </a>
+                                            </Link>
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <a
-                                                            href="https://php.net"
+                                                        <Link
+                                                            to="https://php.net"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             PHP
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <a
-                                                            href="http://www.doctrine-project.org/"
+                                                        <Link
+                                                            to="http://www.doctrine-project.org/"
                                                             rel="nofollow noreferrer"
                                                             target="_blank"
                                                         >
                                                             Doctrine ORM
-                                                        </a>
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
-                                            <a href="/portfolio/slowniki-pro/">
+                                            <Link to="/portfolio/slowniki-pro/">
                                                 <img
-                                                    src="/generated/images/portfolio/slownikipro/slownikipro-800x568-3d9b07.edb9c787.png"
+                                                    src="/portfolio/generated/images/portfolio/slownikipro/slownikipro-800x568-3d9b07.edb9c787.png"
                                                     alt="Slowniki-Pro"
                                                 />
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </li> */}

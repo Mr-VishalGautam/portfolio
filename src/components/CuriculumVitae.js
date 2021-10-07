@@ -1,5 +1,6 @@
 import React from "react";
 import "./Component.css";
+import {  Link } from "react-router-dom";
 
 export default function CuriculumVitae() {
   return (
@@ -7,7 +8,7 @@ export default function CuriculumVitae() {
       <div className="cv-page-inner">
         <div className="cv-section cv-header p-contact h-card">
           <div className="cv-header-avatar">
-            <img alt="" src="/v-img.jpeg" />
+            <img alt="" src="/portfolio/v-img.jpeg" />
           </div>
           <div className="cv-header-text">
             <h1 className="cv-header-name p-name">Vishal Gautam</h1>
@@ -24,9 +25,9 @@ export default function CuriculumVitae() {
           <div className="cv-header-meta">
             <div className="cv-header-meta-right">
               <div className="cv-header-meta-row">
-                <a href="https://jtom.me/" rel="me" className="u-url">
-                  www.jtom.me
-                </a>
+                <Link to="https://mr-vishalgautam.github.io/portfolio/home" target="_blank" rel="me" className="u-url">
+                https://mr-vishalgautam.github.io/portfolio/#/
+                </Link>
               </div>
               <div className="cv-header-meta-row">
                 <div>
@@ -39,9 +40,9 @@ export default function CuriculumVitae() {
             +48 792 290 484
           </div> */}
               <div className="cv-header-meta-row">
-                <a href="https://www.linkedin.com/in/vishal-gautam-a47a4935/">
+                <Link target="_blank" to="https://www.linkedin.com/in/vishal-gautam-a47a4935/">
                   linkedin.com/in/vishal-gautam-a47a4935/
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -76,14 +77,14 @@ export default function CuriculumVitae() {
                 <div className="cv-timeline-side">
                   <div className="cv-timeline-company">ScalingWeb</div>
                   <div className="cv-timeline-date">Jan 2021 - Present</div>
-                  <a
-                    href="https://scalingweb.com"
+                  <Link
+                    to="https://scalingweb.com"
                     target="_blank"
                     rel="noreferrer"
                     className="cv-timeline-website"
                   >
                     scalingweb.com
-                  </a>
+                  </Link>
                 </div>
                 <div className="cv-timeline-body p-summary">
                   <h4 className="cv-timeline-position p-name">
@@ -119,14 +120,14 @@ export default function CuriculumVitae() {
                 <div className="cv-timeline-side">
                   <div className="cv-timeline-company">Qutiq Myanmar</div>
                   <div className="cv-timeline-date">Aug 2020 - Dec 2020</div>
-                  <a
-                    href="https://www.qutiq.com"
+                  <Link
+                    to="https://www.qutiq.com"
                     target="_blank"
                     rel="noreferrer"
                     className="cv-timeline-website"
                   >
                     www.qutiq.com
-                  </a>
+                  </Link>
                 </div>
                 <div className="cv-timeline-body p-summary">
                   <h4 className="cv-timeline-position p-name">
@@ -162,14 +163,14 @@ export default function CuriculumVitae() {
                     LivingSparks it solutions
                   </div>
                   <div className="cv-timeline-date">Apr 2019 - Aug 2020</div>
-                  <a
-                    href="https://www.livingspark.in"
+                  <Link
+                    to="https://www.livingspark.in"
                     target="_blank"
                     rel="noreferrer"
                     className="cv-timeline-website"
                   >
                     www.livingspark.in
-                  </a>
+                  </Link>
                 </div>
                 <div className="cv-timeline-body p-summary">
                   <h4 className="cv-timeline-position p-name">
@@ -214,14 +215,14 @@ export default function CuriculumVitae() {
                     Bachelore Of Technology
                   </div>
                   <div className="cv-timeline-date">2011 - 2015</div>
-                  <a
-                    href="https://www.rtu.ac.in"
+                  <Link
+                    to="https://www.rtu.ac.in"
                     target="_blank"
                     rel="noreferrer"
                     className="cv-timeline-website"
                   >
                     www.rtu.ac.in
-                  </a>
+                  </Link>
                 </div>
                 <div className="cv-timeline-body p-summary">
                   <div className="cv-timeline-position p-name">

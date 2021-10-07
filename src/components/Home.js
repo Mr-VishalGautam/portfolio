@@ -1,6 +1,7 @@
 import React from "react";
 import "./Component.css";
 import AsideMenu from "./AsideMenu";
+import {  Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -25,16 +26,16 @@ export default function Home() {
                 .
               </div>
               <div className="home-buttons">
-                <a
-                  href="/portfolio/"
+                <Link
+                  to="/my-portfolio"
                   className="button button-outline button-white"
                 >
                   Portfolio
-                </a>
+                </Link>
                 <br />
-                <a href="/cv" className="button button-outline button-white">
+                <Link to="/cv" className="button button-outline button-white">
                   My CV
-                </a>
+                </Link>
                 {/* <a href="/blog/" className="button button-outline button-white">Tech blog</a> */}
                 {/* <a href="/cv/" className="button button-outline button-white">My CV</a> */}
                 {/* <a href="https://medium.com/@jGautam" className="button button-outline button-white">Personal blog</a> */}
