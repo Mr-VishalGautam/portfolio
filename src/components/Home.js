@@ -15,13 +15,13 @@ export default function Home() {
               <h2 className="home-subheading">
                 a software engineer specialized&nbsp;in
                 <br />
-                <strong>front-end Development</strong>.
+                <strong>Fullstack Web Development</strong>.
               </h2>
               <div className="home-location">
                 Currently located in
                 <span className="location-name">
                   &nbsp; <i className="fa fa-map-marker"></i>
-                  Rajasthan, India
+                  India
                 </span>
                 .
               </div>

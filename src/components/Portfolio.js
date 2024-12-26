@@ -2,7 +2,7 @@ import React from "react";
 import "./Component.css";
 import AsideMenu from "./AsideMenu";
 
-import {  Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Portfolio() {
     return (
@@ -12,94 +12,257 @@ export default function Portfolio() {
                 <div className="site-main-inner">
                     <div className="main-section portfolio-section">
                         <h1 className="main-title">Portfolio</h1>
-                        <p>
-                            See my works below. Unless explicitly stated otherwise,{" "}
+                        {/*  <p>
+                            See my works below. Unless explicitly stated
+                            otherwise,{" "}
                             <strong>
-                                all their front-end parts were completely done by me.
+                                all their front-end parts were completely done
+                                by me.
                             </strong>
-                        </p>
+                        </p>*/}
                         <div className="timeline portfolio-timeline">
                             <ul>
                                 <li className="timeline_element timeline_element--now project">
                                     <div className="timeline_element-date">
-                                        <time className="timeline_element-date-text">Now</time>
-                                    </div>
-                                    <div className="timeline_element-contents">
-                                        <div className="project-text">
-                                            <div className="project-description">
-                                                <strong>
-                                                    Currently open to co-operation on new and existing
-                                                    projects.
-                                                </strong>
-                                                <br />
-                                                Looking for a front-end Developer willing to join your
-                                                team?
-                                                <br />
-                                                <Link to="/contact">Contact me</Link>. I will answer you in
-                                                ~24 hours.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li className="timeline_element timeline_element--now project">
-                                    <div className="timeline_element-date">
                                         <time className="timeline_element-date-text">
-                                            Jan 2021 - Present
+                                            Now
                                         </time>
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
                                             <div className="project-description">
-                                                I am working as a React Developer in medium-size tech
-                                                company. This gave me a lot of experience and hindsight
-                                                on how a proper team collaborate, project management
-                                                process should look like. See <Link to="/cv">my CV</Link>{" "}
-                                                for more details.
+                                                <strong>
+                                                    Currently open to
+                                                    co-operation on new and
+                                                    existing projects.
+                                                </strong>
+                                                <br />
+                                                Looking for a Senior Full-Stack
+                                                Engineer who brings expertise,
+                                                innovation, and a passion for
+                                                building exceptional digital
+                                                experiences?
+                                                <br />
+                                                <Link to="/contact">
+                                                    Contact me
+                                                </Link>
+                                                . I will answer you in ~24
+                                                hours.
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 <li className="timeline_element project">
                                     <div className="timeline_element-date">
-                                        <time className="timeline_element-date-text">Present</time>
+                                        <time className="timeline_element-date-text">
+                                            July 2022 - Present
+                                        </time>
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/adminpanel/" className="project-link">
+                                            <Link
+                                                to="/my-portfolio/adminpanel/"
+                                                className="project-link"
+                                            >
                                                 <div className="project-title">
-                                                    Admin Panel & Website(Under NDA){" "}
+                                                    Supply Chain Navigator
                                                 </div>
                                                 <div className="project-subtitle">
-                                                    Working on an High Functional Video uploading and
-                                                    rating application
+                                                    Supply Chain Navigator
+                                                    platform helps Bayer's
+                                                    Supply Chain teams across
+                                                    Crop Science optimize their
+                                                    decisions in a complex and
+                                                    volatile environment.
                                                 </div>
                                             </Link>
                                             <div className="project-description">
                                                 <p>
                                                     <strong>
-                                                        This is a web platform that allows user to watch
-                                                        videos and rate them for rewards
+                                                        Supply Chain Navigator
+                                                        helps with extended
+                                                        optimization in
+                                                        Allocation policy,
+                                                        Production campaign
+                                                        policy, Crop placement,
+                                                        Safety stock, Adjust
+                                                        plan etc
                                                     </strong>
                                                 </p>
                                                 <ul>
                                                     <li>
-                                                        a SaaS platform for user to upload watch, review and
-                                                        rate videos
+                                                        Best and robust solution
+                                                        providing new optimal
+                                                        plans using optimization
+                                                        and simulations
                                                     </li>
                                                     <li>
-                                                        User can watch both short and long videos and rate
-                                                        them.
+                                                        Impoving models with
+                                                        continues enhancements
+                                                        based on snapshots of
+                                                        data
+                                                    </li>
+                                                    <li>
+                                                        Capable of handling high
+                                                        peak system loads with
+                                                        historical data
+                                                    </li>
+                                                    <li>
+                                                        Focus on expert user
+                                                        enabling them with
+                                                        intelligent insights
+                                                    </li>
+                                                    <li>
+                                                        Confidentiality of
+                                                        scenarios and data
+                                                    </li>
+                                                    <li>
+                                                        Analyze benefit of
+                                                        changed Supply Chain
+                                                        setup
                                                     </li>
                                                 </ul>
                                             </div>
+
+                                            <div className="project-technologies">
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
+                                                <ul className="tech-tags">
+                                                    <li>
+                                                        <Link
+                                                            to="https://nextjs.org/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Next.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.typescriptlang.org/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            TypeScript
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://nodejs.org/en"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Node.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.mongodb.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Mongo db
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://expressjs.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Express.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.ansible.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            sockets
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://nestjs.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Nest.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                    <Link
+                                                        to="https://nx.dev/"
+                                                        rel="nofollow noreferrer"
+                                                        target="_blank"
+                                                    >
+                                                        Mono repo
+                                                    </Link>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="project-image">
+                                            <Link to="/my-portfolio/adminpanel/">
+                                                <img
+                                                    src="/portfolio/scn.png"
+                                                    alt="Supply Chain Navigator"
+                                                />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li className="timeline_element project">
+                                    <div className="timeline_element-date">
+                                        <time className="timeline_element-date-text">
+                                            Jan 2021 - June 2022
+                                        </time>
+                                    </div>
+                                    <div className="timeline_element-contents">
+                                        <div className="project-text">
                                             <Link
                                                 to="/my-portfolio/adminpanel/"
-                                                className="project-readmore button button-red"
+                                                className="project-link"
                                             >
-                                                More details
+                                                <div className="project-title">
+                                                    Admin Panel & App (Android
+                                                    and iOS)
+                                                </div>
+                                                <div className="project-subtitle">
+                                                    Working on an High
+                                                    Functional Video uploading
+                                                    and rating application
+                                                </div>
                                             </Link>
+                                            <div className="project-description">
+                                                <p>
+                                                    <strong>
+                                                        Web platform that allows
+                                                        user to watch videos and
+                                                        rate them for rewards
+                                                    </strong>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        a SaaS platform for user
+                                                        to upload watch, review
+                                                        and rate videos
+                                                    </li>
+                                                    <li>
+                                                        User can watch both
+                                                        short and long videos
+                                                        and rate them.
+                                                    </li>
+                                                </ul>
+                                            </div>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -108,6 +271,15 @@ export default function Portfolio() {
                                                             target="_blank"
                                                         >
                                                             React
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://reactjs.org/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            React Native
                                                         </Link>
                                                     </li>
                                                     <li>
@@ -151,7 +323,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/adminpanel/">
-                                                <img src="/portfolio/adminpanalss.png" alt="Admin Panel" />
+                                                <img
+                                                    src="/portfolio/adminpanalss.png"
+                                                    alt="Admin Panel"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -164,35 +339,47 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/jjtu/" className="project-link">
-                                                <div className="project-title">JJTU </div>
+                                            <Link
+                                                to="/my-portfolio/jjtu/"
+                                                className="project-link"
+                                            >
+                                                <div className="project-title">
+                                                    JJTU{" "}
+                                                </div>
                                                 <div className="project-subtitle">
-                                                    A Prestigeous University Based In india
+                                                    A Prestigeous University
+                                                    Based In india
                                                 </div>
                                             </Link>
                                             <div className="project-description">
                                                 <p>
                                                     <strong>
-                                                        JJTU is a Prestigeous University in india which
-                                                        specializes in research & Tech education.
+                                                        JJTU is a Prestigeous
+                                                        University in india
+                                                        which specializes in
+                                                        research & Tech
+                                                        education.
                                                     </strong>
                                                 </p>
                                                 <p>
-                                                    This web protal is used by thousands of
-                                                    Students,Researchers , Adminstration staff daily
+                                                    This web protal is used by
+                                                    thousands of
+                                                    Students,Researchers ,
+                                                    Adminstration staff daily
                                                 </p>
                                                 <ol>
-                                                    <li>Responsive web application (React & Redux)</li>
+                                                    <li>
+                                                        Responsive web
+                                                        application (React &
+                                                        Redux)
+                                                    </li>
                                                 </ol>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/jjtu/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -235,7 +422,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/jjtu/">
-                                                <img src="/portfolio/JJTUss.png" alt="JJTU WEBSITE" />
+                                                <img
+                                                    src="/portfolio/JJTUss.png"
+                                                    alt="JJTU WEBSITE"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -246,40 +436,59 @@ export default function Portfolio() {
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/jjtuadmin/" className="project-link">
-                                                <div className="project-title">JJTU Admin Panel</div>
+                                            <Link
+                                                to="/my-portfolio/jjtuadmin/"
+                                                className="project-link"
+                                            >
+                                                <div className="project-title">
+                                                    JJTU Admin Panel
+                                                </div>
                                                 <div className="project-subtitle">
-                                                    A highly fuctional and responsive admin panel to
+                                                    A highly fuctional and
+                                                    responsive admin panel to
                                                     manage Universites data
                                                 </div>
                                             </Link>
                                             <div className="project-description">
-                                                <p>The portal is used to manage data like:</p>
+                                                <p>
+                                                    The portal is used to manage
+                                                    data like:
+                                                </p>
                                                 <ul>
-                                                    <li>Data & Profile of newly enlisted students;</li>
                                                     <li>
-                                                        Profile ,Data ,Certificates of Research Students;
+                                                        Data & Profile of newly
+                                                        enlisted students;
                                                     </li>
                                                     <li>
-                                                        Managing Data and profile of Administration and
+                                                        Profile ,Data
+                                                        ,Certificates of
+                                                        Research Students;
+                                                    </li>
+                                                    <li>
+                                                        Managing Data and
+                                                        profile of
+                                                        Administration and
                                                         Staff;
                                                     </li>
                                                     <li>… and a lot more.</li>
                                                 </ul>
                                                 <p>Technical wrap-up:</p>
                                                 <ul>
-                                                    <li>A high functioning web portal</li>
-                                                    <li>Done in React/Redux and TypeScript</li>
+                                                    <li>
+                                                        A high functioning web
+                                                        portal
+                                                    </li>
+                                                    <li>
+                                                        Done in React/Redux and
+                                                        TypeScript
+                                                    </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/jjtuadmin/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -322,7 +531,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/jjtu-admin/">
-                                                <img src="/portfolio/jjtuadminss.png" alt="JJTU Admin " />
+                                                <img
+                                                    src="/portfolio/jjtuadminss.png"
+                                                    alt="JJTU Admin "
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -330,39 +542,49 @@ export default function Portfolio() {
                                 <li className="timeline_element project">
                                     <div className="timeline_element-date">
                                         <time className="timeline_element-date-text">
-                                            Apr 2019 - Aug 2020
+                                            June 2018 - Aug 2020
                                         </time>
                                     </div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/radhaStore/" className="project-link">
-                                                <div className="project-title">Radha Store</div>
+                                            <Link
+                                                to="/my-portfolio/radhaStore/"
+                                                className="project-link"
+                                            >
+                                                <div className="project-title">
+                                                    Radha Store
+                                                </div>
                                                 <div className="project-subtitle">
-                                                    An E-commerce website for Religious books,Traditional
+                                                    An E-commerce website for
+                                                    Religious books,Traditional
                                                     clothes and things
                                                 </div>
                                             </Link>
                                             <div className="project-description">
                                                 <p>
-                                                    The application allows to buy ISCKON's book's,
-                                                    traditonal Indian cloths ornaments etc....
+                                                    The application allows to
+                                                    buy ISCKON's book's,
+                                                    traditonal Indian cloths
+                                                    ornaments etc....
                                                 </p>
                                                 <ul>
                                                     <li>
-                                                        A fully functional website with a high tech and
-                                                        secure payment gateway
+                                                        A fully functional
+                                                        website with a high tech
+                                                        and secure payment
+                                                        gateway
                                                     </li>
-                                                    <li>Used By hundreds of devotees worldwide daily</li>
+                                                    <li>
+                                                        Used By hundreds of
+                                                        devotees worldwide daily
+                                                    </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/radhaStore/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -396,7 +618,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/radhaStore/">
-                                                <img src="/portfolio/radhastoress.png" alt="Radha Store" />
+                                                <img
+                                                    src="/portfolio/radhastoress.png"
+                                                    alt="Radha Store"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -405,32 +630,39 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/namangtl/" className="project-link">
+                                            <Link
+                                                to="/my-portfolio/namangtl/"
+                                                className="project-link"
+                                            >
                                                 <div className="project-title">
                                                     Naman Gems Testing lab
                                                 </div>
                                                 <div className="project-subtitle">
-                                                    A Brand Portfolio website for of the India's top Gems
-                                                    Testing lab Based in Jaipur,"Rajasthan"
+                                                    A Brand Portfolio website
+                                                    for of the India's top Gems
+                                                    Testing lab Based in
+                                                    Jaipur,"Rajasthan"
                                                 </div>
                                             </Link>
                                             <div className="project-description">
                                                 <ul>
-                                                    <li>Responsive and highly efficient.</li>
                                                     <li>
-                                                        Back-end server, written down in Asp.net - which
-                                                        handles API requests and includes an admin panel.
+                                                        Responsive and highly
+                                                        efficient.
+                                                    </li>
+                                                    <li>
+                                                        Back-end server, written
+                                                        down in Asp.net - which
+                                                        handles API requests and
+                                                        includes an admin panel.
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/namangtl/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -464,7 +696,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/namangtl/">
-                                                <img src="/portfolio/ngtl.png" alt="Gems Testing lab" />
+                                                <img
+                                                    src="/portfolio/ngtl.png"
+                                                    alt="Gems Testing lab"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -473,36 +708,45 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/igl/" className="project-link">
+                                            <Link
+                                                to="/my-portfolio/igl/"
+                                                className="project-link"
+                                            >
                                                 <div className="project-title">
                                                     Indian Gemological Lab
                                                 </div>
                                                 <div className="project-subtitle">
-                                                    A Brand Portfolio website for of the India's top Gems
-                                                    Testing lab Based in Jaipur,"Rajasthan"
+                                                    A Brand Portfolio website
+                                                    for of the India's top Gems
+                                                    Testing lab Based in
+                                                    Jaipur,"Rajasthan"
                                                 </div>
                                             </Link>
                                             <div className="project-description">
                                                 <p>
-                                                    An highly resoponsive an good lookin portfolio of one
-                                                    of the best gemological lab in jaipur .{" "}
+                                                    An highly resoponsive an
+                                                    good lookin portfolio of one
+                                                    of the best gemological lab
+                                                    in jaipur .{" "}
                                                 </p>
                                                 <ul>
-                                                    <li>Responsive and highly efficient.</li>
                                                     <li>
-                                                        Back-end server, written down in Asp.net - which
-                                                        handles API requests and includes an admin panel.
+                                                        Responsive and highly
+                                                        efficient.
+                                                    </li>
+                                                    <li>
+                                                        Back-end server, written
+                                                        down in Asp.net - which
+                                                        handles API requests and
+                                                        includes an admin panel.
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/igl/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -524,17 +768,24 @@ export default function Portfolio() {
                                                     </li>
 
                                                     <li>
-                                                        <Link to="# ">HTML5</Link>
+                                                        <Link to="# ">
+                                                            HTML5
+                                                        </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="# ">CSS3</Link>
+                                                        <Link to="# ">
+                                                            CSS3
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/igl/">
-                                                <img src="/portfolio/igl.png" alt="IGL" />
+                                                <img
+                                                    src="/portfolio/igl.png"
+                                                    alt="IGL"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -543,40 +794,57 @@ export default function Portfolio() {
                                     <div className="timeline_element-date"></div>
                                     <div className="timeline_element-contents">
                                         <div className="project-text">
-                                            <Link to="/my-portfolio/ayurvedah/" className="project-link">
-                                                <div className="project-title">Ayurvedah</div>
+                                            <Link
+                                                to="/my-portfolio/ayurvedah/"
+                                                className="project-link"
+                                            >
+                                                <div className="project-title">
+                                                    Ayurvedah
+                                                </div>
                                                 <div className="project-subtitle">
-                                                    A web portal to communicate with india's best
-                                                    ayurvedic doctor's for online diagnosis and
-                                                    prescription
+                                                    A web portal to communicate
+                                                    with india's best ayurvedic
+                                                    doctor's for online
+                                                    diagnosis and prescription
                                                 </div>
                                             </Link>
                                             <div className="project-description">
-                                                <p>Ayurvedah lets you connect with :</p>
+                                                <p>
+                                                    Ayurvedah lets you connect
+                                                    with :
+                                                </p>
                                                 <ul>
-                                                    <li>Best Ayurvedic medicine experts in india </li>
                                                     <li>
-                                                        and you got provided best treatment according to
-                                                        your symtoms
+                                                        Best Ayurvedic medicine
+                                                        experts in india{" "}
                                                     </li>
-                                                    <li>Communication and payment is all online </li>
                                                     <li>
-                                                        Diagnosis and treatment by the best medical
-                                                        professional arroud the country
+                                                        and you got provided
+                                                        best treatment according
+                                                        to your symtoms
+                                                    </li>
+                                                    <li>
+                                                        Communication and
+                                                        payment is all online{" "}
+                                                    </li>
+                                                    <li>
+                                                        Diagnosis and treatment
+                                                        by the best medical
+                                                        professional arroud the
+                                                        country
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/ayurvedah/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
-                                                        <Link to="# ">HTML5</Link>
+                                                        <Link to="# ">
+                                                            HTML5
+                                                        </Link>
                                                     </li>
                                                     <li>
                                                         <Link
@@ -610,7 +878,10 @@ export default function Portfolio() {
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/ayurvedah/">
-                                                <img src="/portfolio/ayurvedah.png" alt="Ayurvedah " />
+                                                <img
+                                                    src="/portfolio/ayurvedah.png"
+                                                    alt="Ayurvedah "
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -623,27 +894,33 @@ export default function Portfolio() {
                                                 to="/my-portfolio/mehta-stones/"
                                                 className="project-link"
                                             >
-                                                <div className="project-title">Mehta Stones </div>
+                                                <div className="project-title">
+                                                    Mehta Stones{" "}
+                                                </div>
                                                 <div className="project-subtitle" />
                                             </Link>
                                             <div className="project-description">
                                                 <p>
-                                                    A Brand portfolio for a local stone marbal trader and
-                                                    supplier:
+                                                    A Brand portfolio for a
+                                                    local stone marbal trader
+                                                    and supplier:
                                                 </p>
                                                 <ul>
-                                                    <li>modern one-page, responsive web design;</li>
-                                                    <li>custom subpages, gallery, contact form;</li>
+                                                    <li>
+                                                        modern one-page,
+                                                        responsive web design;
+                                                    </li>
+                                                    <li>
+                                                        custom subpages,
+                                                        gallery, contact form;
+                                                    </li>
                                                 </ul>
                                             </div>
-                                            <Link
-                                                to="/my-portfolio/mehta-stones/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+
                                             <div className="project-technologies">
-                                                <div className="technologies-title">Technologies</div>
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
                                                 <ul className="tech-tags">
                                                     <li>
                                                         <Link
@@ -664,14 +941,19 @@ export default function Portfolio() {
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                        <Link to="# ">HTML5</Link>
+                                                        <Link to="# ">
+                                                            HTML5
+                                                        </Link>
                                                     </li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <div className="project-image">
                                             <Link to="/my-portfolio/mehta-stones/">
-                                                <img src="/portfolio/mehtastones.png" alt="Mehta Stones" />
+                                                <img
+                                                    src="/portfolio/mehtastones.png"
+                                                    alt="Mehta Stones"
+                                                />
                                             </Link>
                                         </div>
                                     </div>
@@ -741,12 +1023,7 @@ export default function Portfolio() {
                                                     framework.
                                                 </p>
                                             </div>
-                                            <Link
-                                                to="/portfolio/slowniki-pro/"
-                                                className="project-readmore button button-red"
-                                            >
-                                                More details
-                                            </Link>
+                                         
                                             <div className="project-technologies">
                                                 <div className="technologies-title">Technologies</div>
                                                 <ul className="tech-tags">

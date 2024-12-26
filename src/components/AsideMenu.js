@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./Component.css";
 import { Link } from "react-router-dom";
 
@@ -10,16 +10,26 @@ export default function AsideMenu() {
             <div className="site-sidebar-inner h-card">
                 <Link to="/" rel="me" className="person u-url">
                     <div className="person-avatar u-photo">
-                        <img src="/portfolio/v-img.jpeg" alt="" className="avatar" />
+                        <img
+                            src="/portfolio/v-img.jpeg"
+                            alt=""
+                            className="avatar"
+                        />
                     </div>
                     <div className="person-content">
                         <h1 className="person-title p-name">Vishal Gautam</h1>
                         <h2 className="person-subtitle p-job-title p-note">
-                            Front-End Software Engineer
+                            Webs Craftman
                         </h2>
                     </div>
                 </Link>
-                <nav className={extend===false?"block main-navigation":"block main-navigation extended"}>
+                <nav
+                    className={
+                        extend === false
+                            ? "block main-navigation"
+                            : "block main-navigation extended"
+                    }
+                >
                     <div className="navigation-extend-bar">
                         <div className="social-icons">
                             <Link
@@ -65,7 +75,7 @@ export default function AsideMenu() {
                         </div>
                         <Link
                             to="# "
-                            onClick={()=>setExtend(true)}
+                            onClick={() => setExtend(true)}
                             className="navigation-extend-button js-extend-main-navigation"
                         >
                             <i className="fa fa-bars" />
