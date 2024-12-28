@@ -29,22 +29,22 @@ export default function CuriculumVitae() {
                                 +91 9950792281
                             </div>
                             <div className="cv-header-meta-row">
-                                <Link
+                                <a
+                                    rel="noopener noreferrer"
                                     target="_blank"
-                                    to="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
+                                    href="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
                                 >
                                     linkedin.com/in/vishal-gautam-a47a4935/
-                                </Link>
+                                </a>
                             </div>
                             <div className="cv-header-meta-row">
-                                <Link
-                                    to="https://mr-vishalgautam.github.io/portfolio/home"
+                                <a
+                                    rel="noopener noreferrer"
                                     target="_blank"
-                                    rel="me"
-                                    className="u-url"
+                                    href="https://mr-vishalgautam.github.io/portfolio/#"
                                 >
                                     https://mr-vishalgautam.github.io/portfolio/#/
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -102,14 +102,13 @@ export default function CuriculumVitae() {
                                     <div className="cv-timeline-date">
                                         July 2022 – Present
                                     </div>
-                                    <Link
-                                        to="https://bayer.com"
+                                    <a
+                                        href="https://bayer.com"
+                                        rel="noopener noreferrer"
                                         target="_blank"
-                                        rel="noreferrer"
-                                        className="cv-timeline-website"
                                     >
                                         bayer.com
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <h4 className="cv-timeline-position p-name">
@@ -169,14 +168,14 @@ export default function CuriculumVitae() {
                                     <div className="cv-timeline-date">
                                         Jan 2021 - June 2022
                                     </div>
-                                    <Link
-                                        to="https://www.scalingweb.com"
+                                    <a
+                                        href="https://www.scalingweb.com"
                                         target="_blank"
-                                        rel="noreferrer"
+                                        rel="noopener noreferrer"
                                         className="cv-timeline-website"
                                     >
                                         www.scalingweb.com
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <h4 className="cv-timeline-position p-name">
@@ -221,14 +220,14 @@ export default function CuriculumVitae() {
                                     <div className="cv-timeline-date">
                                         Aug 2020 - Dec 2020
                                     </div>
-                                    <Link
-                                        to="https://www.qutiq.com"
+                                    <a
+                                        href="https://www.qutiq.com"
                                         target="_blank"
-                                        rel="noreferrer"
+                                        rel="noopener noreferrer"
                                         className="cv-timeline-website"
                                     >
                                         www.qutiq.com
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <h4 className="cv-timeline-position p-name">
@@ -269,14 +268,14 @@ export default function CuriculumVitae() {
                                     <div className="cv-timeline-date">
                                         June 2018 - Aug 2020
                                     </div>
-                                    <Link
-                                        to="https://www.livingsparks.com"
+                                    <a
+                                        href="https://www.livingsparks.com"
                                         target="_blank"
-                                        rel="noreferrer"
+                                        rel="noopener noreferrer"
                                         className="cv-timeline-website"
                                     >
                                         www.livingspark.com
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <h4 className="cv-timeline-position p-name">
@@ -322,14 +321,14 @@ export default function CuriculumVitae() {
                                     <div className="cv-timeline-date">
                                         2011 - 2015
                                     </div>
-                                    <Link
-                                        to="https://www.rtu.ac.in"
+                                    <a
+                                        href="https://www.rtu.ac.in"
                                         target="_blank"
-                                        rel="noreferrer"
+                                        rel="noopener noreferrer"
                                         className="cv-timeline-website"
                                     >
                                         www.rtu.ac.in
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="cv-timeline-body p-summary">
                                     <div className="cv-timeline-position p-name">

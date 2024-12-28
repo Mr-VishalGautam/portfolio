@@ -11,7 +11,7 @@ export default function AsideMenu() {
                 <Link to="/" rel="me" className="person u-url">
                     <div className="person-avatar u-photo">
                         <img
-                            src="/portfolio/v-img.jpeg"
+                            src="/portfolio/v-img2.jpeg"
                             alt=""
                             className="avatar"
                         />
@@ -100,31 +100,34 @@ export default function AsideMenu() {
                     <div className="block-title">Get in touch</div>
                     <div className="block-content">
                         <div className="social-icons">
-                            <Link
+                            <a
                                 rel="me"
-                                to="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
+                                href="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
                                 className="button button-icon"
                                 title="linkedin: Vishal Gautam"
+                                target="_blank"
                             >
                                 <i className="fa fa-linkedin-square" />
-                            </Link>
+                            </a>
 
-                            <Link
+                            <a
                                 rel="me"
-                                to="https://www.facebook.com/vishal.gautam.5"
+                                href="https://www.facebook.com/vishal.gautam.5"
                                 className="button button-icon"
                                 title="facebook: Vishal Gautam"
+                                target="_blank"
                             >
                                 <i className="fa fa-facebook-square" />
-                            </Link>
-                            <Link
+                            </a>
+                            <a
                                 rel="me"
-                                to="https://twitter.com/VishalG14630432"
+                                href="https://twitter.com/VishalG14630432"
                                 className="button button-icon"
                                 title="twitter: @Vishal Gautam"
+                                target="_blank"
                             >
                                 <i className="fa fa-twitter-square" />
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>
