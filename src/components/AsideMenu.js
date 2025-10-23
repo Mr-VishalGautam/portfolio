@@ -11,7 +11,7 @@ export default function AsideMenu() {
                 <Link to="/" rel="me" className="person u-url">
                     <div className="person-avatar u-photo">
                         <img
-                            src="/portfolio/v-img2.jpeg"
+                            src="/portfolio/my_new_pic_ai.png"
                             alt=""
                             className="avatar"
                         />
@@ -19,8 +19,12 @@ export default function AsideMenu() {
                     <div className="person-content">
                         <h1 className="person-title p-name">Vishal Gautam</h1>
                         <h2 className="person-subtitle p-job-title p-note">
-                            Webs Craftman
+                            Senior Software Engineer (Full-stack)
                         </h2>
+                        <p>
+                            Architecting high-performance, low-latency systems
+                            for global enterprises
+                        </p>
                     </div>
                 </Link>
                 <nav
@@ -84,14 +88,14 @@ export default function AsideMenu() {
                     <div className="navigation-extendable">
                         <ul>
                             <li>
-                                <Link to="/my-portfolio">Portfolio</Link>
+                                <Link to="/my-portfolio">Work</Link>
                             </li>
 
                             <li>
-                                <Link to="/cv">My CV</Link>
+                                <Link to="/cv">Resume</Link>
                             </li>
                             <li>
-                                <Link to="/contact">Contact me</Link>
+                                <Link to="/contact">Contact</Link>
                             </li>
                         </ul>
                     </div>

@@ -37,17 +37,18 @@ export default function Portfolio() {
                                                     existing projects.
                                                 </strong>
                                                 <br />
-                                                Looking for a Senior Full-Stack
-                                                Engineer who brings expertise,
-                                                innovation, and a passion for
-                                                building exceptional digital
-                                                experiences?
+                                                Open to collaboration. If you
+                                                need a Senior Full-Stack
+                                                Engineer to solve complex
+                                                problems and build high-impact
+                                                digital experiences, I'm your
+                                                person.
                                                 <br />
                                                 <Link to="/contact">
-                                                    Contact me
+                                                    Let's talk.
                                                 </Link>
-                                                . I will answer you in ~24
-                                                hours.
+                                                (I answer pretty quickly—usually
+                                                within a day.)
                                             </div>
                                         </div>
                                     </div>
@@ -55,7 +56,208 @@ export default function Portfolio() {
                                 <li className="timeline_element project">
                                     <div className="timeline_element-date">
                                         <time className="timeline_element-date-text">
-                                            July 2022 - Present
+                                            May 2025 - Present
+                                        </time>
+                                    </div>
+                                    <div className="timeline_element-contents">
+                                        <div className="project-text">
+                                            <Link
+                                                to="/my-portfolio/adminpanel/"
+                                                className="project-link"
+                                            >
+                                                <div className="project-title">
+                                                    ORCampus
+                                                </div>
+                                                <div className="project-subtitle">
+                                                    ORCampus offers a
+                                                    comprehensive scheduling
+                                                    solution for universities
+                                                    and colleges.
+                                                </div>
+                                            </Link>
+                                            <div className="project-description">
+                                                <p>
+                                                    <strong>
+                                                        ORCampus is a AI-powered
+                                                        platform manages
+                                                        constraints and
+                                                        optimizes resources
+                                                        automatically. The
+                                                        system handles 98.7% of
+                                                        scheduling conflicts
+                                                        automatically. It
+                                                        reduces administrative
+                                                        workload by up to 65%
+                                                    </strong>
+                                                </p>
+                                                <ul>
+                                                    <li>
+                                                        Engineered an AI-powered
+                                                        scheduling system that
+                                                        reduced manual
+                                                        rescheduling effort by
+                                                        85%, automatically
+                                                        generating conflict-free
+                                                        timetables in under 10
+                                                        minutes to minimize
+                                                        academic disruptions.
+                                                    </li>
+                                                    <li>
+                                                        Drove a 90-95% reduction
+                                                        in schedule creation
+                                                        timelines, automating a
+                                                        previously manual 3-4
+                                                        week process into a
+                                                        sub-30-minute operation
+                                                        for full-campus semester
+                                                        planning.
+                                                    </li>
+                                                    <li>
+                                                        Optimized institutional
+                                                        resource allocation,
+                                                        increasing classroom and
+                                                        lab utilization by
+                                                        20-30% through
+                                                        intelligent,
+                                                        constraint-aware
+                                                        scheduling algorithms.
+                                                    </li>
+                                                    <li>
+                                                        Architected a predictive
+                                                        modeling feature for
+                                                        budget estimation,
+                                                        enabling data-driven
+                                                        investment decisions in
+                                                        new programs by
+                                                        simulating faculty and
+                                                        infrastructure needs
+                                                        with high-fidelity cost
+                                                        modeling.
+                                                    </li>
+                                                    <li>
+                                                        Delivered a
+                                                        comprehensive scheduling
+                                                        platform that
+                                                        autonomously resolves
+                                                        98.7% of conflicts,
+                                                        reducing the
+                                                        administrative workload
+                                                        for university staff by
+                                                        up to 65%.
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div className="project-technologies">
+                                                <div className="technologies-title">
+                                                    Technologies
+                                                </div>
+                                                <ul className="tech-tags">
+                                                    <li>
+                                                        <Link
+                                                            to="https://nextjs.org/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Next.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.typescriptlang.org/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            TypeScript
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://nodejs.org/en"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Node.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.mongodb.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Mongo db
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://expressjs.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Express.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://www.ansible.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            sockets
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://nestjs.com/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Nest.js
+                                                        </Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link
+                                                            to="https://nx.dev/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Mono repo
+                                                        </Link>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className="project-image">
+                                            <Link to="/my-portfolio/adminpanel/">
+                                                <img
+                                                    src="/portfolio/us-calender.jpeg"
+                                                    alt="ORCampus"
+                                                />
+                                            </Link>
+                                        </div>
+                                        <div className="project-image">
+                                            <Link to="/my-portfolio/adminpanel/">
+                                                <img
+                                                    src="/portfolio/us-dash.jpeg"
+                                                    alt="ORCampus"
+                                                />
+                                            </Link>
+                                        </div>
+                                        <div className="project-image">
+                                            <Link to="/my-portfolio/adminpanel/">
+                                                <img
+                                                    src="/portfolio/us-dash2.jpeg"
+                                                    alt="ORCampus"
+                                                />
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="timeline_element project">
+                                    <div className="timeline_element-date">
+                                        <time className="timeline_element-date-text">
+                                            July 2022 - feb 2025
                                         </time>
                                     </div>
                                     <div className="timeline_element-contents">
@@ -193,14 +395,14 @@ export default function Portfolio() {
                                                         </Link>
                                                     </li>
                                                     <li>
-                                                    <Link
-                                                        to="https://nx.dev/"
-                                                        rel="nofollow noreferrer"
-                                                        target="_blank"
-                                                    >
-                                                        Mono repo
-                                                    </Link>
-                                                </li>
+                                                        <Link
+                                                            to="https://nx.dev/"
+                                                            rel="nofollow noreferrer"
+                                                            target="_blank"
+                                                        >
+                                                            Mono repo
+                                                        </Link>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
