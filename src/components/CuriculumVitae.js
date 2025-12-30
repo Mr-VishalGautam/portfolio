@@ -7,9 +7,10 @@ export default function CuriculumVitae() {
     return (
         <>
             {" "}
-           
             <div className="cv-page h-resume">
-                 <DownloadButton style={{display:"flex",alignItem:'left'}}/>
+                <DownloadButton
+                    style={{ display: "flex", alignItem: "left" }}
+                />
                 <div className="cv-page-inner">
                     <div className="cv-section cv-header p-contact h-card">
                         <div className="cv-header-avatar">
@@ -20,8 +21,8 @@ export default function CuriculumVitae() {
                                 Vishal Gautam
                             </h1>
                             <h2 className="cv-header-subname p-title">
-                                Senior Software Engineer | Scalable Systems |
-                                Distributed Computing
+                                Senior Full Stack Engineer — TypeScript• React •
+                                Node.js• Scalable SaaS Systems
                             </h2>
                         </div>
                         <div className="cv-header-meta">
@@ -70,18 +71,16 @@ export default function CuriculumVitae() {
                         <h3 className="cv-section-title">About Me</h3>
                         <div className="cv-section-content cv-section-content--indented">
                             <ul style={{ marginTop: 0 }}>
-                                Expertise in architecting high-performance,
-                                low-latency systems handling {">"} 50,000
-                                events/second for global enterprises. Proven
-                                track record of driving performance
-                                optimizations resulting in {">"} 40% latency
-                                reduction and 50% bundle size decrease. Led
-                                full-stack development and technical strategy
-                                for complex applications using React,
-                                TypeScript, Node.js, and GraphQL. Product-minded
-                                engineer focused on leveraging modern tech to
-                                solve complex scalability and real-time data
-                                challenges.
+                                Senior Full Stack Engineer with 7+ years of
+                                experience building scalable, performance-driven
+                                interfaces for high-impact product platforms.
+                                Proven expertise in delivering responsive,
+                                reliable UI systems for complex, data-intensive
+                                applications used in production by thousands of
+                                users. Recognised for transforming slow, fragile
+                                frontends into stable, measurable, and
+                                user-centric systems that directly support
+                                business outcomes.
                             </ul>
                         </div>
                     </div>
@@ -144,59 +143,41 @@ export default function CuriculumVitae() {
                                             Senior Software Engineer
                                         </h4>
                                         <p>
-                                            Architected and deployed the Supply
-                                            Chain Navigator (SCN) platform,
-                                            empowering Bayer’s Operations
-                                            Research and Data Science teams to
-                                            optimize global supply chain
-                                            operations with advanced data
-                                            visualization and predictive
-                                            analytics.
+                                            Engineered a Supply Chain Navigator
+                                            for Bayer Crop Science to optimize
+                                            allocation, production planning, and
+                                            safety stock management using
+                                            Next.js, TypeScript, Node.js, and
+                                            MongoDB.
                                         </p>
                                         <ul>
                                             <li>
-                                                Designed a micro-frontend
-                                                architecture (React/TypeScript)
-                                                with a Node.js/GraphQL BFF,
-                                                enabling independent feature
-                                                deployments and reducing
-                                                frontend build times by 40%.
+                                                Developed ORCampus, an
+                                                AI-powered university scheduling
+                                                system that autonomously
+                                                resolved 98.7% of conflicts,
+                                                cutting schedule creation time
+                                                from weeks to under 30 minutes.
                                             </li>
                                             <li>
-                                                Pit to Port (Bravus Mining) :
-                                                Architected and developed a
-                                                full-stack application for
-                                                optimizing coal production and
-                                                transportation logistics,
-                                                resulting in a 20% improvement
-                                                in operational eﬃciency.
+                                                Built a pit-to-port optimizer
+                                                for Bravus Mining, integrating
+                                                data models with a
+                                                React/TypeScript frontend to
+                                                streamline operational planning.
                                             </li>
                                             <li>
-                                                Classroom and University
-                                                Scheduler : Led the development
-                                                of an AI-powered scheduling
-                                                system for educational
-                                                institutions, incorporating RAG
-                                                and AI-based chat systems to
-                                                optimize resource utilization
-                                                and faculty allocation.
+                                                Introduced frontend
+                                                observability practices (Sentry
+                                                + Web Vitals), improving error
+                                                visibility and reducing
+                                                production issues by 30%.
                                             </li>
                                             <li>
-                                                Engineered a real-time data
-                                                pipeline using WebSockets and
-                                                Node.js to handle a peak load of
-                                                50,000+ events/sec, slashing
-                                                data latency from minutes to{" "}
-                                                {">"} 500ms for end-user
-                                                analytics.
-                                            </li>
-                                            <li>
-                                                Orchestrated AWS infrastructure
-                                                (EC2, S3, RDS) with Docker and
-                                                CI/CD, achieving 99.95% uptime
-                                                and enabling zero-downtime
-                                                deployments for a global user
-                                                base.
+                                                Mentored 4 engineers in frontend
+                                                architecture and testing best
+                                                practices, reducing production
+                                                issues by 30%.
                                             </li>
                                         </ul>
                                     </div>
