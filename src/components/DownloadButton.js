@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadButton = () => {
   const handleDownload = async () => {
     try {
-      const pdfPath = '/portfolio/Vishal_Gautam_Resume.pdf';
+      const pdfPath = '/portfolio/Vishal_Resume.pdf';
       
       // Fetch the PDF file
       const response = await fetch(pdfPath);
