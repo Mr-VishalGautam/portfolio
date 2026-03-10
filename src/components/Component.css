@@ -3095,7 +3095,10 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .person .person-avatar {
     border-radius: 50%;
     margin-bottom: 10px;
-    margin-left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
     width: 152px; /* Move width to container */
     height: 152px; /* Move height to container */
 /* Ensure image doesn't overflow the circle */
