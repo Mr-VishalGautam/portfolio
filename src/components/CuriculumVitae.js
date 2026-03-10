@@ -148,7 +148,7 @@ export default function CurriculumVitae() {
                     <h3 className="cv-section-title">About Me</h3>
                     <div className="cv-section-content cv-section-content--indented">
                         <p>
-                            Senior Frontend Engineer with 7+ years of experience building production systems at the intersection
+                            Senior Frontend Engineer with 8+ years of experience building production systems at the intersection
                             of complex data, real-time infrastructure, and high-stakes operational software. I have designed and
                             owned frontend architectures for enterprise optimization platforms — supply chain planners, AI-driven
                             scheduling engines, and logistics simulators — where correctness, performance, and sub-second

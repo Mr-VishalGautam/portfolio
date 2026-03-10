@@ -20,7 +20,7 @@ export default function Home() {
                 real-time infrastructure, and data-intensive operational software —
                 the tools that expert users depend on to make high-stakes decisions.
                 <br /><br />
-                7+ years in production. Trusted by global organisations including Bayer Crop Science.
+                8+ years in production. Trusted by global organisations including Bayer Crop Science.
                 Based in India. Working worldwide.
               </div>
               <div className="home-buttons">
