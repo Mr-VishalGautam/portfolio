@@ -1,13 +1,12 @@
-import Routes from "./components/Routes";
-import { HashRouter as Router } from "react-router-dom";
+import AppRoutes from "./components/Routes";
+import { HashRouter } from "react-router-dom";
 import "./App.css";
 
 function App() {
   return (
-    <Router basename="/">
-      <Routes />
-    </Router>
-   
+    <HashRouter basename="/">
+      <AppRoutes />
+    </HashRouter>
   );
 }
 

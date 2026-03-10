@@ -3946,9 +3946,9 @@ body.cv {
 }
 
 .cv-page {
-    width: 920px;
+    
     padding: 80px 80px 60px;
-    margin: 80px auto;
+   margin-left: 25%;
     background-color: #fff;
     box-shadow: 2px 2px 1px #606060;
 }
@@ -3967,10 +3967,12 @@ body.cv {
 .cv-header {
     display: -webkit-box;
     display: flex;
+     margin-left: 20%;
 }
 
 .cv-header-avatar {
     float: left;
+   
     
 }
 
@@ -4023,7 +4025,7 @@ body.cv {
     display: block;
     text-transform: none;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 5px;
     color: #777;
 }

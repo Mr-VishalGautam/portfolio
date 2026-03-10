@@ -19,7 +19,7 @@ const DownloadButton = () => {
       const url = window.URL.createObjectURL(blob);
       const link = document.createElement('a');
       link.href = url;
-      link.download = 'Vishal_Gautam_Resume.pdf';
+      link.download = 'Vishal_CV.pdf';
       
       // Trigger download
       document.body.appendChild(link);
@@ -35,8 +35,8 @@ const DownloadButton = () => {
       
       // Fallback: Try direct download
       const fallbackLink = document.createElement('a');
-      fallbackLink.href = '/portfolio/Vishal_Gautam_Resume.pdf';
-      fallbackLink.download = 'Vishal_Gautam_Resume.pdf';
+      fallbackLink.href = '/portfolio/Vishal_CV.pdf';
+      fallbackLink.download = 'Vishal_CV.pdf';
       fallbackLink.target = '_blank';
       document.body.appendChild(fallbackLink);
       fallbackLink.click();
@@ -51,7 +51,7 @@ const DownloadButton = () => {
       right: '20px',
       zIndex: 1000,
       background: 'white',
-      padding: '15px',
+      padding: '5px',
       borderRadius: '8px',
       boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
       border: '1px solid #e0e0e0'
@@ -59,13 +59,13 @@ const DownloadButton = () => {
       <button 
         onClick={handleDownload}
         style={{
-          padding: '12px 24px',
+          padding: '6px 12px',
           backgroundColor: '#28a745',
           color: 'white',
           border: 'none',
           borderRadius: '6px',
           cursor: 'pointer',
-          fontSize: '14px',
+          fontSize: '12px',
           fontWeight: 'bold',
           display: 'flex',
           alignItems: 'center',

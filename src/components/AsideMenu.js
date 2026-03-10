@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function AsideMenu() {
     const [extend, setExtend] = useState(false);
-    console.log(extend);
+
     return (
         <aside className="site-sidebar">
             <div className="site-sidebar-inner h-card">
@@ -19,11 +19,11 @@ export default function AsideMenu() {
                     <div className="person-content">
                         <h1 className="person-title p-name">Vishal Gautam</h1>
                         <h2 className="person-subtitle p-job-title p-note">
-                            Senior Software Engineer (Full-stack)
+                           Senior Frontend Engineer — Optimization & Data-Intensive Systems
                         </h2>
                         <p>
-                            Architecting high-performance, low-latency systems
-                            for global enterprises
+                            Building operational software for complex,
+                            data-intensive problems.
                         </p>
                     </div>
                 </Link>
@@ -36,49 +36,47 @@ export default function AsideMenu() {
                 >
                     <div className="navigation-extend-bar">
                         <div className="social-icons">
-                            <Link
+                            <a
                                 rel="me"
-                                to="/cdn-cgi/l/email-protection#046e6567616f446e706b692a6961"
+                                href="mailto:vishalgautam520@gmail.com"
                                 className="button button-icon u-email"
-                                title="mail: jacek@jtom.me"
+                                title="mail: vishalgautam520@gmail.com"
                             >
                                 <i className="fa fa-envelope" />
-                            </Link>
-                            <Link
+                            </a>
+                            <a
                                 rel="me"
-                                to="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
+                                href="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
                                 className="button button-icon"
-                                title="linkedin: Vishal Gautam"
+                                title="LinkedIn: Vishal Gautam"
+                                target="_blank"
+                             //   rel="noopener noreferrer"
                             >
                                 <i className="fa fa-linkedin-square" />
-                            </Link>
-                            <Link
+                            </a>
+                            <a
                                 rel="me"
-                                to="https://github.com/Vishal Gautam"
+                                href="https://github.com/mr-vishalgautam"
                                 className="button button-icon"
-                                title="github: Vishal Gautam"
+                                title="GitHub: mr-vishalgautam"
+                                target="_blank"
+                             //   rel="noopener noreferrer"
                             >
                                 <i className="fa fa-github-square" />
-                            </Link>
-                            <Link
+                            </a>
+                            <a
                                 rel="me"
-                                to="https://www.facebook.com/vishal.gautam.5"
+                                href="https://x.com/V_C0DES"
                                 className="button button-icon"
-                                title="facebook: Vishal Gautam"
-                            >
-                                <i className="fa fa-facebook-square" />
-                            </Link>
-                            <Link
-                                rel="me"
-                                to="https://twitter.com/VishalG14630432"
-                                className="button button-icon"
-                                title="twitter: @Visahol"
+                                title="X: @V_C0DES"
+                                target="_blank"
+                             //   rel="noopener noreferrer"
                             >
                                 <i className="fa fa-twitter-square" />
-                            </Link>
+                            </a>
                         </div>
                         <Link
-                            to="# "
+                            to="#"
                             onClick={() => setExtend(true)}
                             className="navigation-extend-button js-extend-main-navigation"
                         >
@@ -90,7 +88,6 @@ export default function AsideMenu() {
                             <li>
                                 <Link to="/my-portfolio">Work</Link>
                             </li>
-
                             <li>
                                 <Link to="/cv">Resume</Link>
                             </li>
@@ -108,27 +105,29 @@ export default function AsideMenu() {
                                 rel="me"
                                 href="https://www.linkedin.com/in/vishal-gautam-a47a4935/"
                                 className="button button-icon"
-                                title="linkedin: Vishal Gautam"
+                                title="LinkedIn: Vishal Gautam"
                                 target="_blank"
+                              //  rel="noopener noreferrer"
                             >
                                 <i className="fa fa-linkedin-square" />
                             </a>
-
                             <a
                                 rel="me"
-                                href="https://www.facebook.com/vishal.gautam.5"
+                                href="https://github.com/mr-vishalgautam"
                                 className="button button-icon"
-                                title="facebook: Vishal Gautam"
+                                title="GitHub: mr-vishalgautam"
                                 target="_blank"
+                             //   rel="noopener noreferrer"
                             >
-                                <i className="fa fa-facebook-square" />
+                                <i className="fa fa-github-square" />
                             </a>
                             <a
                                 rel="me"
-                                href="https://twitter.com/VishalG14630432"
+                                href="https://x.com/V_C0DES"
                                 className="button button-icon"
-                                title="twitter: @Vishal Gautam"
+                                title="X: @V_C0DES"
                                 target="_blank"
+                               // rel="noopener noreferrer"
                             >
                                 <i className="fa fa-twitter-square" />
                             </a>
