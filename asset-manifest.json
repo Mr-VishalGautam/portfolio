@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8958a12e.css",
-    "main.js": "/portfolio/static/js/main.aca5d237.js",
-    "static/js/488.620eb332.chunk.js": "/portfolio/static/js/488.620eb332.chunk.js",
-    "static/media/gagron-durg.jpg": "/portfolio/static/media/gagron-durg.76ee04a9255d6f904ace.jpg",
-    "index.html": "/portfolio/index.html",
-    "main.8958a12e.css.map": "/portfolio/static/css/main.8958a12e.css.map",
-    "main.aca5d237.js.map": "/portfolio/static/js/main.aca5d237.js.map",
-    "488.620eb332.chunk.js.map": "/portfolio/static/js/488.620eb332.chunk.js.map"
+    "main.css": "/static/css/main.cfe11560.css",
+    "main.js": "/static/js/main.a4433208.js",
+    "static/js/488.620eb332.chunk.js": "/static/js/488.620eb332.chunk.js",
+    "static/media/gagron-durg.jpg": "/static/media/gagron-durg.76ee04a9255d6f904ace.jpg",
+    "index.html": "/index.html",
+    "main.cfe11560.css.map": "/static/css/main.cfe11560.css.map",
+    "main.a4433208.js.map": "/static/js/main.a4433208.js.map",
+    "488.620eb332.chunk.js.map": "/static/js/488.620eb332.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8958a12e.css",
-    "static/js/main.aca5d237.js"
+    "static/css/main.cfe11560.css",
+    "static/js/main.a4433208.js"
   ]
 }
