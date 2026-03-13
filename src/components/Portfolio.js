@@ -32,9 +32,9 @@ const PROJECTS = [
       { label: "Mono Repo", href: "https://nx.dev/" },
     ],
     images: [
-      { src: "/us-calender.jpeg", alt: "ORCampus Calendar View" },
-      { src: "/us-dash.jpeg", alt: "ORCampus Dashboard" },
-      { src: "/us-dash2.jpeg", alt: "ORCampus Planning Interface" },
+      { src: "/portfolio/us-calender.jpeg", alt: "ORCampus Calendar View" },
+      { src: "/portfolio/us-dash.jpeg", alt: "ORCampus Dashboard" },
+      { src: "/portfolio/us-dash2.jpeg", alt: "ORCampus Planning Interface" },
     ],
   },
   {
@@ -64,7 +64,7 @@ const PROJECTS = [
       { label: "Mono Repo", href: "https://nx.dev/" },
     ],
     images: [
-      { src: "/scn.png", alt: "Supply Chain Navigator" },
+      { src: "/portfolio/scn.png", alt: "Supply Chain Navigator" },
     ],
   },
   {
@@ -92,7 +92,7 @@ const PROJECTS = [
       { label: "Sockets", href: "https://socket.io/" },
     ],
     images: [
-      { src: "/adminpanalss.png", alt: "Video Platform Admin Panel" },
+      { src: "/portfolio/adminpanalss.png", alt: "Video Platform Admin Panel" },
     ],
   },
   {
@@ -114,7 +114,7 @@ const PROJECTS = [
       { label: "Sass", href: "https://sass-lang.com/" },
     ],
     images: [
-      { src: "/JJTUss.png", alt: "JJTU Website" },
+      { src: "/portfolio/JJTUss.png", alt: "JJTU Website" },
     ],
   },
   {
@@ -137,7 +137,7 @@ const PROJECTS = [
       { label: "Bootstrap", href: "https://react-bootstrap.github.io/" },
     ],
     images: [
-      { src: "/jjtuadminss.png", alt: "JJTU Admin Panel" },
+      { src: "/portfolio/jjtuadminss.png", alt: "JJTU Admin Panel" },
     ],
   },
   {
@@ -158,7 +158,7 @@ const PROJECTS = [
       { label: "CSS3", href: "https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/" },
     ],
     images: [
-      { src: "/radhastoress.png", alt: "Radha Store" },
+      { src: "/portfolio/radhastoress.png", alt: "Radha Store" },
     ],
   },
   {
@@ -178,7 +178,7 @@ const PROJECTS = [
       { label: "CSS3", href: "https://www.w3.org/TR/2001/WD-css3-roadmap-20010523/" },
     ],
     images: [
-      { src: "/ngtl.png", alt: "Naman Gems Testing Lab" },
+      { src: "/portfolio/ngtl.png", alt: "Naman Gems Testing Lab" },
     ],
   },
   {
@@ -199,7 +199,7 @@ const PROJECTS = [
       { label: "CSS3", href: "#" },
     ],
     images: [
-      { src: "/igl.png", alt: "Indian Gemological Lab" },
+      { src: "/portfolio/igl.png", alt: "Indian Gemological Lab" },
     ],
   },
   {
@@ -221,7 +221,7 @@ const PROJECTS = [
       { label: "Vanilla JS", href: "http://vanilla-js.com/" },
     ],
     images: [
-      { src: "/ayurvedah.png", alt: "Ayurvedah Telemedicine" },
+      { src: "/portfolio/ayurvedah.png", alt: "Ayurvedah Telemedicine" },
     ],
   },
   {
@@ -241,7 +241,7 @@ const PROJECTS = [
       { label: "HTML5", href: "#" },
     ],
     images: [
-      { src: "/mehtastones.png", alt: "Mehta Stones" },
+      { src: "/portfolio/mehtastones.png", alt: "Mehta Stones" },
     ],
   },
 ];
