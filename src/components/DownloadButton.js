@@ -1,47 +1,13 @@
 import React from 'react';
 
 const DownloadButton = () => {
-  const handleDownload = async () => {
-    try {
-      const pdfPath = '/portfolio/Vishal_Resume.pdf';
-      
-      // Fetch the PDF file
-      const response = await fetch(pdfPath);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      
-      // Convert to blob
-      const blob = await response.blob();
-      
-      // Create download link
-      const url = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'Vishal_CV.pdf';
-      
-      // Trigger download
-      document.body.appendChild(link);
-      link.click();
-      
-      // Cleanup
-      document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
-      
-    } catch (error) {
-      console.error('Download failed:', error);
-      alert('Download failed. The resume file might be missing or there might be a network issue.');
-      
-      // Fallback: Try direct download
-      const fallbackLink = document.createElement('a');
-      fallbackLink.href = '/portfolio/Vishal_CV.pdf';
-      fallbackLink.download = 'Vishal_CV.pdf';
-      fallbackLink.target = '_blank';
-      document.body.appendChild(fallbackLink);
-      fallbackLink.click();
-      document.body.removeChild(fallbackLink);
-    }
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/portfolio/Vishal_CV.pdf';
+    link.download = 'Vishal_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (

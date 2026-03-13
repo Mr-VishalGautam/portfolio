@@ -11,7 +11,7 @@ export default function AsideMenu() {
                 <Link to="/" rel="me" className="person u-url">
                     <div className="person-avatar u-photo">
                         <img
-                            src="/portfolio/my_new_pic_ai.png"
+                            src="/my_new_pic_ai.png"
                             alt=""
                             className="avatar"
                         />
