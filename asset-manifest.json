@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8958a12e.css",
+    "main.css": "/portfolio/static/css/main.cb80b7c6.css",
     "main.js": "/portfolio/static/js/main.ddef4c0d.js",
     "static/js/488.620eb332.chunk.js": "/portfolio/static/js/488.620eb332.chunk.js",
     "static/media/gagron-durg.jpg": "/portfolio/static/media/gagron-durg.76ee04a9255d6f904ace.jpg",
     "index.html": "/portfolio/index.html",
-    "main.8958a12e.css.map": "/portfolio/static/css/main.8958a12e.css.map",
+    "main.cb80b7c6.css.map": "/portfolio/static/css/main.cb80b7c6.css.map",
     "main.ddef4c0d.js.map": "/portfolio/static/js/main.ddef4c0d.js.map",
     "488.620eb332.chunk.js.map": "/portfolio/static/js/488.620eb332.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8958a12e.css",
+    "static/css/main.cb80b7c6.css",
     "static/js/main.ddef4c0d.js"
   ]
 }
